@@ -21,7 +21,7 @@
           {
             "id": 3,
             "value": 120,
-            "description": "Lorme ipsum dolor sit amet",
+            "description": "Lorme ipsum dolor sit",
             "icon": "team",
             "attributes": {
               "type": "default"
@@ -30,7 +30,7 @@
           {
             "id": 4,
             "value": 10,
-            "description": "Lorme ipsum dolor sit amet",
+            "description": "Lorme ipsum dolor sit",
             "icon": "star",
             "attributes": {
               "type": "default"

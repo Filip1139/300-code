@@ -28,7 +28,7 @@ const icons: Record<string, string> = {
   <div
     :class="
       cn(
-        'bg-gray-light p-6 flex flex-col relative rounded-xs',
+        'bg-gray-light pl-[1.6rem] pr-5 pb-8 pt-[1.6rem] flex flex-col relative rounded-xs',
         {
           'col-span-full lg:col-span-2': attributes.type === StatsBoxType.WIDE,
           'md:col-span-2 lg:col-span-1':
@@ -46,14 +46,16 @@ const icons: Record<string, string> = {
       alt=""
     />
 
-    <img :src="icons[data.icon]" width="48" height="48" alt="" />
-    <div class="pt-[clamp(4.375rem,20vw,16.875rem)] mt-auto">
+    <img :src="icons[data.icon]" class="" width="48" height="48" alt="" />
+    <div
+      class="pt-[clamp(3rem,var(--base-size,10vw),11rem)] lg:[--base-size:20vw] mt-auto"
+    >
       <h3
         :class="
-          cn('font-bold mb-2 !leading-none', {
-            'text-[clamp(5rem,20vw,10rem)] lg:text-[clamp(5rem,15vw,10rem)]  tracking-[-.04em]':
+          cn('!leading-none mb-2', {
+            'text-[clamp(5.25rem,var(--base-size,20vw),10rem)] lg:[--base-size:15vw] tracking-[-.04em] ':
               attributes.type === StatsBoxType.WIDE,
-            'text-[clamp(4rem,15vw,6rem)] lg:text-[clamp(3.25rem,10vw,6rem)] tracking-[-.01em]':
+            'text-[clamp(4.25rem,var(--base-size,15vw),6rem)] lg:[--base-size:10vw] tracking-[-.02em] lg:mb-4 font-medium':
               attributes.type === StatsBoxType.DEFAULT,
           })
         "
