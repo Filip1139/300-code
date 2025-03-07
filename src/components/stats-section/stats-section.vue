@@ -2,9 +2,10 @@
 import AppContainer from "@/components/base/app-container.vue";
 import SectionTitle from "@/components/base/section-title.vue";
 import StatsBox from "./stats-box.vue";
+import type { StatsSectionProps } from "@/lib/types";
 
 defineProps<{
-  data: any;
+  data: StatsSectionProps;
 }>();
 </script>
 <template>

@@ -5,7 +5,7 @@ import StatsSections from "./components/stats-section/stats-section.vue";
 
 const sections = data.data.sections;
 
-// string shoud be a component name enum
+// string should be a component name enum
 const components: Record<string, Component> = {
   stats: StatsSections,
 };
