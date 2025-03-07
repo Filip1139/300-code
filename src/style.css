@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", "sans-serif";
+
+  --text-4xl: 3rem;
+  --text-4xl-line-height: 1.2;
+
+  --color-dark: #1a1a1a;
+  --color-gray-light: #f7f7f7;
+  --color-gray: #707070;
+
+  --text-xl-clamp: clamp(0.85rem, 2.75vw, 1rem);
+  --text-xl-clamp--line-height: 1.25;
+
+  --radius-xs: 0.185rem;
+}
+
+@utility container {
+  max-width: 75rem;
+}
+
+:root {
+  --spacing: 5px;
+
+  font-size: 20px;
+}
