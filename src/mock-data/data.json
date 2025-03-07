@@ -1,0 +1,43 @@
+{
+  "data": {
+    "sections": [
+      {
+        "id": 1,
+        "name": "stats",
+        "header": {
+          "title": "Headline",
+          "description": "Lorme ipsum dolor sit amet"
+        },
+        "content": [
+          {
+            "id": 2,
+            "value": 200,
+            "description": "Lorme ipsum dolor sit amet",
+            "icon": "head-circuit",
+            "attributes": {
+              "type": "wide"
+            }
+          },
+          {
+            "id": 3,
+            "value": 120,
+            "description": "Lorme ipsum dolor sit amet",
+            "icon": "team",
+            "attributes": {
+              "type": "default"
+            }
+          },
+          {
+            "id": 4,
+            "value": 10,
+            "description": "Lorme ipsum dolor sit amet",
+            "icon": "star",
+            "attributes": {
+              "type": "default"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
